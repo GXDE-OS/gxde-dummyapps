@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+X-Categories=System;Wine;
+Exec=spark-store spk://store/tools/spark-deepin-wine-runner
+Icon=/usr/share/icons/deepin-wine-runner.svg
+Name=Wine Runner
+Name[zh_CN]=Wine 运行器
+Terminal=false
+StartupNotify=true
+Keywords=exe;scr;
