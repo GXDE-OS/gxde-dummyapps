@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+X-Categories=Office
+Exec=spark-store spk://store/office/wps-office
+Icon=/usr/share/icons/wps-office2019-kprometheus.svg
+Name=WPS Office
+Name[zh_CN]=WPS Office
+Terminal=false
+StartupNotify=true

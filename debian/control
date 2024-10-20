@@ -1,7 +1,7 @@
-Source: deepin-dummyapps
+Source: gxde-dummyapps
 Section: editors
 Priority: optional
-Maintainer: Wu Haotian <wuhaotian@uniontech.com>
+Maintainer: shenmo <shenmo@spark-app.store>
 Standards-Version: 4.6.0.1
 Build-Depends: debhelper-compat (= 12), gettext, gettext-base
 
@@ -12,3 +12,11 @@ Architecture: all
 Depends: ${misc:Depends}, spark-store(>=4.3.2)
 Description: spark-deepin-wine-runner dummy package that provides placeholder
  application icon that installs spark-deepin-wine-runner on demand.
+
+Package: dummyapp-wps-office
+Provides: wps-office
+Conflicts: wps-office
+Architecture: all
+Depends: ${misc:Depends}, spark-store(>=4.3.2)
+Description: wps-office dummy package that provides placeholder
+ application icon that installs wps-office on demand.
